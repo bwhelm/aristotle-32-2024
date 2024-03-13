@@ -1,6 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.pretty")(options "")(descr ""))
-  (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/promicro.pretty")(options "")(descr ""))
   (lib (name "aristotle")(type "KiCad")(uri "${KIPRJMOD}/aristotle.pretty")(options "")(descr ""))
 )
