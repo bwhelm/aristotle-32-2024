@@ -1,0 +1,566 @@
+EESchema Schematic File Version 4
+LIBS:aristotle_split_small_keyboard-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Aristotle Split Small Keyboard"
+Date "2020-12-02"
+Rev "1.2"
+Comp "Bennett Helm"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7350 4600 3    50   Input ~ 0
+data
+Text GLabel 7600 5200 2    50   Input ~ 0
+reset
+Text GLabel 7800 2850 2    50   Input ~ 0
+reset
+Text GLabel 6400 2750 0    50   Input ~ 0
+data
+Wire Wire Line
+	2600 2850 2600 3750
+Wire Wire Line
+	2600 3750 2600 4700
+Connection ~ 2600 3750
+Wire Wire Line
+	3350 2850 3350 3750
+Wire Wire Line
+	3350 3750 3350 4700
+Connection ~ 3350 3750
+Wire Wire Line
+	4150 4700 4150 3750
+Wire Wire Line
+	4150 3750 4150 2850
+Connection ~ 4150 3750
+Wire Wire Line
+	4950 2850 4950 3750
+Wire Wire Line
+	4950 3750 4950 4700
+Connection ~ 4950 3750
+Wire Wire Line
+	4950 4700 4950 5550
+Connection ~ 4950 4700
+Wire Wire Line
+	5750 2850 5750 3750
+Wire Wire Line
+	5750 3750 5750 4700
+Connection ~ 5750 3750
+Wire Wire Line
+	5750 4700 5750 5550
+Connection ~ 5750 4700
+Wire Wire Line
+	1500 2450 2600 2450
+Wire Wire Line
+	5750 2450 5750 2850
+Connection ~ 5750 2850
+Wire Wire Line
+	4950 2850 4950 2450
+Connection ~ 4950 2850
+Connection ~ 4950 2450
+Wire Wire Line
+	4950 2450 5750 2450
+Wire Wire Line
+	4150 2850 4150 2450
+Connection ~ 4150 2850
+Connection ~ 4150 2450
+Wire Wire Line
+	4150 2450 4950 2450
+Wire Wire Line
+	3350 2850 3350 2450
+Connection ~ 3350 2850
+Connection ~ 3350 2450
+Wire Wire Line
+	3350 2450 4150 2450
+Wire Wire Line
+	2600 2850 2600 2450
+Connection ~ 2600 2850
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 3350 2450
+Text GLabel 2000 2950 3    50   Input ~ 0
+K1
+Text GLabel 2000 3850 3    50   Input ~ 0
+K6
+Text GLabel 2000 4800 3    50   Input ~ 0
+K11
+Text GLabel 2750 2950 3    50   Input ~ 0
+K2
+Text GLabel 2750 3850 3    50   Input ~ 0
+K7
+Text GLabel 2750 4800 3    50   Input ~ 0
+K12
+Text GLabel 3550 4800 3    50   Input ~ 0
+K13
+Text GLabel 3550 3850 3    50   Input ~ 0
+K8
+Text GLabel 3550 2950 3    50   Input ~ 0
+K3
+Text GLabel 4350 2950 3    50   Input ~ 0
+K4
+Text GLabel 5150 2950 3    50   Input ~ 0
+K5
+Text GLabel 5150 3850 3    50   Input ~ 0
+K10
+Text GLabel 4350 3850 3    50   Input ~ 0
+K9
+Text GLabel 4350 4800 3    50   Input ~ 0
+K14
+Text GLabel 5150 4800 3    50   Input ~ 0
+K15
+Text GLabel 5150 5650 3    50   Input ~ 0
+K17
+Text GLabel 4350 5650 3    50   Input ~ 0
+K16
+Wire Wire Line
+	4350 5550 4350 5650
+Wire Wire Line
+	5150 5550 5150 5650
+Wire Wire Line
+	5150 4700 5150 4800
+Wire Wire Line
+	5150 3750 5150 3850
+Wire Wire Line
+	4350 3750 4350 3850
+Wire Wire Line
+	4350 4700 4350 4800
+Wire Wire Line
+	3550 4700 3550 4800
+Wire Wire Line
+	2750 4700 2750 4800
+Wire Wire Line
+	2000 4700 2000 4800
+Wire Wire Line
+	2000 3750 2000 3850
+Wire Wire Line
+	2750 3850 2750 3750
+Wire Wire Line
+	3550 3850 3550 3750
+Wire Wire Line
+	4350 2950 4350 2850
+Wire Wire Line
+	3550 2850 3550 2950
+Wire Wire Line
+	2750 2950 2750 2850
+Wire Wire Line
+	2000 2850 2000 2950
+Wire Wire Line
+	5150 2950 5150 2850
+Text GLabel 7800 3650 2    50   Input ~ 0
+K16
+Text GLabel 7800 3750 2    50   Input ~ 0
+K17
+Text GLabel 7800 3550 2    50   Input ~ 0
+K15
+Text GLabel 7800 3450 2    50   Input ~ 0
+K14
+Text GLabel 6400 3550 0    50   Input ~ 0
+K13
+Text GLabel 6400 3650 0    50   Input ~ 0
+K12
+Text GLabel 6400 3750 0    50   Input ~ 0
+K11
+Text GLabel 6400 3450 0    50   Input ~ 0
+K6
+Text GLabel 6400 2650 0    50   Input ~ 0
+K3
+Text GLabel 6400 3050 0    50   Input ~ 0
+K2
+Text GLabel 6400 3150 0    50   Input ~ 0
+K1
+NoConn ~ 7800 2650
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FCBB1EF
+P 8600 5500
+F 0 "H2" H 8700 5546 50  0000 L CNN
+F 1 "MountingHole" H 8700 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8600 5500 50  0001 C CNN
+F 3 "~" H 8600 5500 50  0001 C CNN
+	1    8600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FCBA894
+P 8600 2600
+F 0 "H1" H 8700 2646 50  0000 L CNN
+F 1 "MountingHole" H 8700 2555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8600 2600 50  0001 C CNN
+F 3 "~" H 8600 2600 50  0001 C CNN
+	1    8600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0103
+U 1 1 5FC6A747
+P 1500 2450
+F 0 "#PWR0103" H 1500 2500 20  0001 C CNN
+F 1 "GND" V 1500 2250 30  0000 L CNN
+F 2 "" H 1500 2450 60  0000 C CNN
+F 3 "" H 1500 2450 60  0000 C CNN
+	1    1500 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5F553ED1
+P 2300 2850
+F 0 "K1" H 2300 2850 60  0000 C CNN
+F 1 "KEYSW" H 2300 2750 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 2300 2850 60  0001 C CNN
+F 3 "" H 2300 2850 60  0000 C CNN
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5F5543D2
+P 3050 2850
+F 0 "K2" H 3050 2850 60  0000 C CNN
+F 1 "KEYSW" H 3050 2750 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3050 2850 60  0001 C CNN
+F 3 "" H 3050 2850 60  0000 C CNN
+	1    3050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5F5552ED
+P 3850 2850
+F 0 "K3" H 3850 2850 60  0000 C CNN
+F 1 "KEYSW" H 3850 2750 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3850 2850 60  0001 C CNN
+F 3 "" H 3850 2850 60  0000 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5F555C6C
+P 4650 2850
+F 0 "K4" H 4650 2850 60  0000 C CNN
+F 1 "KEYSW" H 4650 2750 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 4650 2850 60  0001 C CNN
+F 3 "" H 4650 2850 60  0000 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5F560103
+P 2300 4700
+F 0 "K11" H 2300 4700 60  0000 C CNN
+F 1 "KEYSW" H 2300 4600 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 2300 4700 60  0001 C CNN
+F 3 "" H 2300 4700 60  0000 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5F5605D2
+P 2300 3750
+F 0 "K6" H 2300 3750 60  0000 C CNN
+F 1 "KEYSW" H 2300 3650 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 2300 3750 60  0001 C CNN
+F 3 "" H 2300 3750 60  0000 C CNN
+	1    2300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 5F560B05
+P 3050 3750
+F 0 "K7" H 3050 3750 60  0000 C CNN
+F 1 "KEYSW" H 3050 3650 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3050 3750 60  0001 C CNN
+F 3 "" H 3050 3750 60  0000 C CNN
+	1    3050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5F560FA2
+P 3050 4700
+F 0 "K12" H 3050 4700 60  0000 C CNN
+F 1 "KEYSW" H 3050 4600 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3050 4700 60  0001 C CNN
+F 3 "" H 3050 4700 60  0000 C CNN
+	1    3050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5F5613F4
+P 3850 4700
+F 0 "K13" H 3850 4700 60  0000 C CNN
+F 1 "KEYSW" H 3850 4600 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3850 4700 60  0001 C CNN
+F 3 "" H 3850 4700 60  0000 C CNN
+	1    3850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 5F5617C9
+P 3850 3750
+F 0 "K8" H 3850 3750 60  0000 C CNN
+F 1 "KEYSW" H 3850 3650 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 3850 3750 60  0001 C CNN
+F 3 "" H 3850 3750 60  0000 C CNN
+	1    3850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5F56221D
+P 4650 4700
+F 0 "K14" H 4650 4700 60  0000 C CNN
+F 1 "KEYSW" H 4650 4600 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 4650 4700 60  0001 C CNN
+F 3 "" H 4650 4700 60  0000 C CNN
+	1    4650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5F5626BA
+P 4650 3750
+F 0 "K9" H 4650 3750 60  0000 C CNN
+F 1 "KEYSW" H 4650 3650 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 4650 3750 60  0001 C CNN
+F 3 "" H 4650 3750 60  0000 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 5F569B95
+P 4650 5550
+F 0 "K16" H 4650 5550 60  0000 C CNN
+F 1 "KEYSW" H 4650 5450 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 4650 5550 60  0001 C CNN
+F 3 "" H 4650 5550 60  0000 C CNN
+	1    4650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 5F56A113
+P 5450 5550
+F 0 "K17" H 5450 5550 60  0000 C CNN
+F 1 "KEYSW" H 5450 5450 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 5450 5550 60  0001 C CNN
+F 3 "" H 5450 5550 60  0000 C CNN
+	1    5450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5F5633AA
+P 5450 4700
+F 0 "K15" H 5450 4700 60  0000 C CNN
+F 1 "KEYSW" H 5450 4600 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 5450 4700 60  0001 C CNN
+F 3 "" H 5450 4700 60  0000 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5F562BD4
+P 5450 3750
+F 0 "K10" H 5450 3750 60  0000 C CNN
+F 1 "KEYSW" H 5450 3650 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 5450 3750 60  0001 C CNN
+F 3 "" H 5450 3750 60  0000 C CNN
+	1    5450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5F556474
+P 5450 2850
+F 0 "K5" H 5450 2850 60  0000 C CNN
+F 1 "KEYSW" H 5450 2750 60  0001 C CNN
+F 2 "aristotle_split:Kailh-Choc_1350-Keyswitch" H 5450 2850 60  0001 C CNN
+F 3 "" H 5450 2850 60  0000 C CNN
+	1    5450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F62ED35
+P 8100 1800
+F 0 "#FLG0102" H 8100 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8100 1973 50  0000 C CNN
+F 2 "" H 8100 1800 50  0001 C CNN
+F 3 "~" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F62EA4D
+P 8600 1800
+F 0 "#FLG0101" H 8600 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 1973 50  0000 C CNN
+F 2 "" H 8600 1800 50  0001 C CNN
+F 3 "~" H 8600 1800 50  0001 C CNN
+	1    8600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5F7E3CA6
+P 7800 2950
+F 0 "#PWR0108" H 7800 2800 50  0001 C CNN
+F 1 "VCC" V 7800 3050 50  0000 L CNN
+F 2 "" H 7800 2950 50  0001 C CNN
+F 3 "" H 7800 2950 50  0001 C CNN
+	1    7800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0109
+U 1 1 5F7EDF70
+P 7800 2750
+F 0 "#PWR0109" H 7800 2800 20  0001 C CNN
+F 1 "GND" V 7800 2550 30  0000 L CNN
+F 2 "" H 7800 2750 60  0000 C CNN
+F 3 "" H 7800 2750 60  0000 C CNN
+	1    7800 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0105
+U 1 1 5F850772
+P 6400 2850
+F 0 "#PWR0105" H 6400 2900 20  0001 C CNN
+F 1 "GND" V 6400 2700 30  0000 L CNN
+F 2 "" H 6400 2850 60  0000 C CNN
+F 3 "" H 6400 2850 60  0000 C CNN
+	1    6400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0106
+U 1 1 5F851106
+P 6400 2950
+F 0 "#PWR0106" H 6400 3000 20  0001 C CNN
+F 1 "GND" V 6400 2800 30  0000 L CNN
+F 2 "" H 6400 2950 60  0000 C CNN
+F 3 "" H 6400 2950 60  0000 C CNN
+	1    6400 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L promicro:ProMicro U1
+U 1 1 5F80748D
+P 7100 3400
+F 0 "U1" H 7100 4437 60  0000 C CNN
+F 1 "ProMicro" H 7100 4331 60  0000 C CNN
+F 2 "aristotle_split:ProMicro" H 7200 2350 60  0001 C CNN
+F 3 "" H 7200 2350 60  0000 C CNN
+	1    7100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0111
+U 1 1 5F76AD64
+P 8100 1800
+F 0 "#PWR0111" H 8100 1850 20  0001 C CNN
+F 1 "GND" H 8100 1700 30  0000 C CNN
+F 2 "" H 8100 1800 60  0000 C CNN
+F 3 "" H 8100 1800 60  0000 C CNN
+	1    8100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5F769AF2
+P 8600 1800
+F 0 "#PWR0110" H 8600 1650 50  0001 C CNN
+F 1 "VCC" H 8618 1973 50  0000 C CNN
+F 2 "" H 8600 1800 50  0001 C CNN
+F 3 "" H 8600 1800 50  0001 C CNN
+	1    8600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0102
+U 1 1 5F680DF1
+P 7550 4350
+F 0 "#PWR0102" H 7550 4400 20  0001 C CNN
+F 1 "GND" H 7550 4250 30  0000 C CNN
+F 2 "" H 7550 4350 60  0000 C CNN
+F 3 "" H 7550 4350 60  0000 C CNN
+	1    7550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F68027D
+P 7450 4350
+F 0 "#PWR0101" H 7450 4200 50  0001 C CNN
+F 1 "VCC" H 7467 4523 50  0000 C CNN
+F 2 "" H 7450 4350 50  0001 C CNN
+F 3 "" H 7450 4350 50  0001 C CNN
+	1    7450 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0107
+U 1 1 5F7DC78F
+P 7000 5200
+F 0 "#PWR0107" H 7000 5250 20  0001 C CNN
+F 1 "GND" H 6950 5100 30  0000 L CNN
+F 2 "" H 7000 5200 60  0000 C CNN
+F 3 "" H 7000 5200 60  0000 C CNN
+	1    7000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5F7DB33C
+P 7300 5200
+F 0 "SW1" H 7150 5300 50  0000 C CNN
+F 1 "SW_PUSH" H 7300 5125 50  0000 C CNN
+F 2 "aristotle_split:SW_PUSH_6mm" H 7300 5200 50  0001 C CNN
+F 3 "" H 7300 5200 50  0000 C CNN
+	1    7300 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3250 2    50   Input ~ 0
+K10
+Text GLabel 7800 3350 2    50   Input ~ 0
+K9
+Text GLabel 6400 3350 0    50   Input ~ 0
+K7
+Text GLabel 6400 3250 0    50   Input ~ 0
+K8
+Text GLabel 7800 3150 2    50   Input ~ 0
+K5
+Text GLabel 7800 3050 2    50   Input ~ 0
+K4
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5F742C19
+P 7350 4150
+F 0 "J1" V 7350 3850 50  0000 C CNN
+F 1 "TRRS Conn" V 7450 4150 50  0000 C CNN
+F 2 "aristotle_split:trrs_jack" H 7350 4150 50  0001 C CNN
+F 3 "~" H 7350 4150 50  0001 C CNN
+	1    7350 4150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7350 4350 7350 4600
+NoConn ~ 7250 4350
+NoConn ~ 7150 4350
+$EndSCHEMATC

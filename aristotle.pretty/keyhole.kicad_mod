@@ -1,0 +1,10 @@
+(module keyhole (layer F.Cu) (tedit 5F72AB15)
+  (fp_text reference REF** (at 1 -0.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value keyhole (at 1 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 3.5 0) (size 5 3) (drill oval 5 3) (layers *.Cu *.Mask))
+)

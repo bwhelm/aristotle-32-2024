@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name "aristotle_split_33_keyboard-cache-2021")(type "Legacy")(uri "${KIPRJMOD}/aristotle_split_33_keyboard-cache-2021.lib")(options "")(descr ""))
+)
