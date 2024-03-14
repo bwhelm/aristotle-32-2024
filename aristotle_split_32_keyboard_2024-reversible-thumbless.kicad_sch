@@ -2329,6 +2329,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 29.21 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 55383b68-7432-47b2-84e9-204558f95cae)
+    (property "Reference" "H1" (at 31.75 57.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 31.75 59.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 29.21 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "aristotle_split_32_keyboard_2024-reversible-thumbless"
+        (path "/31e08896-1992-4725-96d9-9d2728bca7a3"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Diode:1N4148") (at 107.95 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 558b929b-1dda-4b48-9ec0-2b4c8b74780b)
@@ -2858,6 +2882,30 @@
       (project "aristotle_split_32_keyboard_2024-reversible-thumbless"
         (path "/31e08896-1992-4725-96d9-9d2728bca7a3"
           (reference "D31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 55.88 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ee73c1e3-d71f-4512-843e-aacefb579e4a)
+    (property "Reference" "H2" (at 58.42 57.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 58.42 59.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 55.88 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 55.88 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "aristotle_split_32_keyboard_2024-reversible-thumbless"
+        (path "/31e08896-1992-4725-96d9-9d2728bca7a3"
+          (reference "H2") (unit 1)
         )
       )
     )
